@@ -7,7 +7,7 @@ from pandas.api.types import is_list_like, is_integer_dtype         # noqa
 
 PANDAS_VERSION = LooseVersion(pd.__version__)
 
-if if PANDAS_VERSION >= LooseVersion('1.1.0'):
+if PANDAS_VERSION >= LooseVersion('1.1.0'):
     _PANDAS_ge_110 = True
 else:
     _PANDAS_ge_110 = False
