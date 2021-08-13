@@ -27,7 +27,7 @@ if PANDAS_VERSION <= LooseVersion('0.23'):
     import pandas.plotting as plotting                            # noqa
     _PANDAS_ge_023 = True
 else:
-    from pandas.util.decorators import Appender, cache_readonly   # noqa
+    from pandas.util._decorators import Appender, cache_readonly   # noqa
     import pandas.plotting as plotting                      # noqa
     _PANDAS_ge_023 = False
 
